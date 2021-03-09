@@ -1,8 +1,10 @@
 // Assignment code here
-function generatePassword(){
-  var passLength = window.prompt("How long would you like your password to be?");
+var passLength = window.prompt("How long would you like your password to be?")
 
-  
+function generatePassword(){
+  //var passLength = window.prompt("How long would you like your password to be?");
+
+
   var special = window.confirm("Would you like your password to include special characters?");
 
 
